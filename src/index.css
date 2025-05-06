@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+:root {
+    --bg-color: black;
+    --text-color: white;
+}
+  
+.light-mode {
+    --bg-color: white;
+    --text-color: black;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
